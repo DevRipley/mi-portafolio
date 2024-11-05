@@ -1,0 +1,230 @@
+/* Importa una fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos generales */
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos del menú */
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+    background: #5200be;
+    color: #fff;
+}
+
+/* Secciones principales */
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: #1a1a2e;
+    font-size: 28px;
+    border-bottom: 3px solid #5200be;
+    padding-bottom: 10px;
+}
+
+/* Sobre mí */
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Educación */
+.education-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Habilidades */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+    color: #5200be;
+}
+
+/* Proyectos */
+.project-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Transición suave para el efecto de escala */
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    background: #6f00ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    transition: background 0.3s ease; /* Transición suave para el color del botón */
+}
+
+.project-link:hover {
+    background: #1800a3;
+}
+
+/* Contacto */
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.contact-item i {
+    margin-bottom: 5px; /* Centrar el texto a el espacio */
+    margin-right: 8px; /* Agrega espacio entre el icono y el texto */
+}
+
+.contact-item span {
+    font-size: 16px; /* Ajusta el tamaño del texto si es necesario */
+}
+
+.contact-item:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-item img {
+    margin-right: 10px;
+}
+
+/* Pie de página */
+footer {
+    background: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        margin-bottom: 20px;
+    }
+}
