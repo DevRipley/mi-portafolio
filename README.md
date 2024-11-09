@@ -27,7 +27,7 @@ Este portafolio presenta una muestra de mis trabajos, habilidades y experiencia.
 
 ![Lenguaje](https://img.shields.io/badge/Lenguaje-Java-orange)
 
-![Tamaño del Código](https://img.shields.io/github/languages/code-size/devripley/PurpleInvoiceSystem)
+![Tamaño del Código](https://img.shields.io/github/languages/code-size/devripley/mi-portafolio)
 
 ¡Disfruta explorando el portafolio! 
 
