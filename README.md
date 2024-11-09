@@ -25,6 +25,10 @@ Este portafolio presenta una muestra de mis trabajos, habilidades y experiencia.
 
 3. Abre el archivo `index.html` en tu navegador preferido para visualizar el sitio.
 
+![Lenguaje](https://img.shields.io/badge/Lenguaje-Java-orange)
+
+![Tamaño del Código](https://img.shields.io/github/languages/code-size/devripley/PurpleInvoiceSystem)
+
 ¡Disfruta explorando el portafolio! 
 
 ## Nota: Asegúrate de tener conexión a Internet para cargar correctamente la fuente `Poppins` desde Google Fonts.
